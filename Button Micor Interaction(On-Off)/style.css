@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(76, 173, 76);
+  transition: background 0.3s ease-in-out;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  width: 250px;
+}
+
+.container p {
+  font-size: 30px;
+  font-weight: bold;
+  user-select: none;
+  cursor: default;
+  transition: color 0.3s ease-in-out;
+}
+
+#off {
+  color: rgb(34, 136, 34);
+}
+
+#on {
+  color: #fff;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: rgb(109, 204, 109);
+  box-shadow: 7px 7px 10px rgb(34, 136, 34);
+  cursor: pointer;
+}
+
+.icon span {
+  display: inline-block;
+}
+
+.icon span:nth-child(1) {
+  width: 50px;
+  height: 8px;
+  background: #fff;
+  border-radius: 10px;
+  transform: rotate(90deg);
+}
+
+.secondLine {
+  width: 50px;
+  height: 8px;
+  background: #fff;
+  border-radius: 10px;
+  transform: rotate(90deg);
+}
